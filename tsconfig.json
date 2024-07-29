@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Allows usage of modern JavaScript features
+    "module": "ESNext", // Outputs ESNext module syntax
+    "moduleResolution": "Bundler", // Uses bundler resolution strategy, suited for modern bundlers
+    "strict": true, // Enables all strict type-checking options
+    "skipLibCheck": true, // Skips type checking for declaration files, speeding up compilation
+    "types": [
+      "node" // Includes Node.js type definitions
+    ],
+    "jsx": "react-jsx", // Uses React JSX transformation, compatible with React 17+
+    "jsxImportSource": "hono/jsx" // Specifies JSX factory for the Hono framework
+  }
+}
